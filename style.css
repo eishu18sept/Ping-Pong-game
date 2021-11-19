@@ -1,0 +1,39 @@
+body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#container {
+    height: 700px;
+    width: 1200px;
+    border: 2px solid black;
+    position: relative;
+    margin-top: 20px;
+}
+
+#bar2 {
+    bottom: 0px;
+}
+
+.bar {
+    background-color: red;
+    height: 30px;
+    width: 200px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    left: 40%;
+    z-index: 2;
+}
+
+#ball {
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    left: 48%;
+    bottom: 30px;
+}
